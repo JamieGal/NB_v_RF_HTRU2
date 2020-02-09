@@ -3,9 +3,13 @@
 # Neutron star of considerable scientific interest for analysis of space-time, produce periodic radio emissions detectable by radio telescopes on earth. As they rapidly rotate they emit a detectable pattern of broadband radio emissions. Telescopes search for this periodic radio signal, with each pulsar producing a unique pattern. However, pulsar radio signal is diluted by radio frequency interference and noise, making legitimate signals hard to identify. Binary classification using machine learning tools have been developed to automatically label pulsars, allowing analysis to focus on real pulsar examples. The use of machine learning has been driven by the need for real-time assessment to reduce data storage given the large volumes of data collected. We will compare two machine learning algorithms, Naïve Bayes and Random Forest, to the classification analysis results of R.J. Lyon et al to assess how optimisation of hyperparameters can improve performance metrics. 
 
 # Contents
-[1] pulsar_NB.m
-[2] pulsar_RF_bo.m
-[3] testModels.m
+[1] Pulsar_NB_v_RF.pdf
+      Academic poster, size A1
+[2] pulsar_NB.m
+      Matlab implementation of Naive Bayes. 
+[3] pulsar_RF_bo.m
+      Matlab implementation of Random Forest, with bayesian optimization.
+[4] testModels.m
 
 # Dataset source; 
 Dr Robert Lyon, University of Manchester, School of Physics and Astronomy, Alan Turing Building, Manchester M13 9PL, United Kingdom, robert.lyon '@' manchester.ac.uk
